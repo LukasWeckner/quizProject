@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -12,4 +14,33 @@ h1::before {
 }
 h1::after {
   content: "❓";
+}
+
+.question-card {
+  width: 70%;
+  height: 30vh;
+  margin: 10vh auto;
+  border: 3px solid black;
+  border-radius: 5px;
+  position: relative;
+}
+.question-text {
+  text-align: center;
+  padding: 30px 10px 15px;
+}
+.btn-answer {
+  display: block;
+  margin: 12px auto 0;
+  padding: 8px;
+  border-radius: 5px;
+}
+.btn-group {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+}
+.btn-category {
+  padding: 3px;
+  background-color: rgb(200, 193, 193);
+  border-radius: 8px;
 }
