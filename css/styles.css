@@ -29,7 +29,7 @@ h1::after {
   border-radius: 5px;
   position: relative;
 }
-.question-card__p {
+.question-card__question {
   text-align: center;
   padding: 30px 10px 15px;
 }
