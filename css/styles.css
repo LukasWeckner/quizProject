@@ -63,7 +63,7 @@ h1::after {
   list-style: none;
   border-top: 2px solid black;
 }
-.nav__ul__li:hover {
+.navigation__list-item:hover {
   cursor: pointer;
   border: 3px solid blue;
 }
