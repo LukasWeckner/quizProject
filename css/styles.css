@@ -70,7 +70,7 @@ h1::after {
 .nav__ul__li--current {
   border: 3px solid green;
 }
-.nav__ul__li__img {
+.navigation__list-item__image {
   width: 35px;
   height: 35px;
   margin: 10px 5px;
