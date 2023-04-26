@@ -52,7 +52,7 @@ h1::after {
   border-radius: 4px;
 }
 
-.nav__ul {
+.navigation__list {
   background-color: white;
   display: flex;
   justify-content: space-around;
