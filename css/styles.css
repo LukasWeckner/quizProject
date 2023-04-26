@@ -67,7 +67,7 @@ h1::after {
   cursor: pointer;
   border: 3px solid blue;
 }
-.nav__ul__li--current {
+.navigation__list-item--current {
   border: 3px solid green;
 }
 .navigation__list-item__image {
