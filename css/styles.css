@@ -40,7 +40,7 @@ h1::after {
   border-radius: 5px;
   cursor: pointer;
 }
-.question-card__div-span-group {
+.question-card__categories {
   position: absolute;
   bottom: 8px;
   left: 8px;
