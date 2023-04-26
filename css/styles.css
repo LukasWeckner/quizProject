@@ -45,7 +45,7 @@ h1::after {
   bottom: 8px;
   left: 8px;
 }
-.question-card__span-category-tag {
+.question-card__categories-tag {
   display: inline-block;
   padding: 4px 8px;
   background-color: rgb(200, 193, 193);
