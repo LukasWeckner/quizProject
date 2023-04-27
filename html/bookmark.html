@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <title>Document</title>
   </head>
   <body>
@@ -13,8 +13,9 @@
     </header>
     <main>
       <section class="question-card">
-        <p class="question-card__question">What property flips the axes in flexbox?</p>
-        <!-- accessibility options for buttons like aria will be added with later branch -->
+        <p class="question-card__question">
+          What property flips the axes in flexbox?
+        </p>
         <button
           type="button"
           class="question-card__button"
@@ -26,33 +27,37 @@
           <span class="question-card__categories-tag">#css</span>
           <span class="question-card__categories-tag">#flexbox</span>
         </div>
+        <img
+          class="question-card__bookmark-icon"
+          src="../img/bookmark.png"
+          alt="bookmark icon"
+        />
       </section>
     </main>
     <footer>
-      <!-- a tags for the nav bar and new html pages will be provided in later branch -->
       <nav>
         <ul class="navigation__list">
-          <li class="navigation__list-item navigation__list-item--current">
+            <a href="index.html"><li class="navigation__list-item">
             <img
               class="navigation__list-item__image"
-              src="./img/home.png"
+              src="../img/home.png"
               alt="house emoji"
             />
-          </li>
-          <li class="navigation__list-item">
+          </li></a>
+          <a href=""></a><li class="navigation__list-item navigation__list-item--current">
             <img
               class="navigation__list-item__image"
-              src="./img/bookmark.png"
+              src="../img/bookmark.png"
               alt="bookmark emoji"
             />
-          </li>
-          <li class="navigation__list-item">
+          </li></a>
+          <a href=""></a><li class="navigation__list-item">
             <img
               class="navigation__list-item__image"
-              src="./img/profile.png"
+              src="../img/profile.png"
               alt="profile emoji"
             />
-          </li>
+          </li></a>
         </ul>
       </nav>
     </footer>

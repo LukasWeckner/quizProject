@@ -24,6 +24,7 @@ h1::after {
   width: 70%;
   height: 30vh;
   min-height: 200px;
+  min-width: 375px;
   margin: 10vh auto;
   border: 3px solid black;
   border-radius: 5px;
@@ -50,6 +51,13 @@ h1::after {
   padding: 4px 8px;
   background-color: rgb(200, 193, 193);
   border-radius: 4px;
+}
+.question-card__bookmark-icon {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  width: 35px;
+  height: 35px;
 }
 
 .navigation__list {
