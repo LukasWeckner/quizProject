@@ -60,6 +60,57 @@ h1::after {
   height: 35px;
 }
 
+/* START profile.html only */
+.main--profile {
+  width: 70%;
+  margin: 3vh auto;
+}
+.user-info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+.user-info__name {
+  align-self: center;
+}
+.user-info__img {
+  border: 5px solid white;
+  border-radius: 50%;
+  order: -1;
+}
+
+.about-me {
+  margin-top: 30px;
+}
+.about-me__description {
+}
+
+.counters__heading {
+  margin-top: 30px;
+  text-align: center;
+}
+.counters {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  gap: 30px;
+  margin-top: 8px;
+}
+.counters__questions,
+.counters__bookmarks {
+  border: 2px solid black;
+  padding: 4px;
+}
+
+.settings {
+  margin-top: 30px;
+}
+.settings__heading {
+  text-align: center;
+}
+/* END profile.html only */
+
 .navigation__list {
   background-color: white;
   display: flex;
