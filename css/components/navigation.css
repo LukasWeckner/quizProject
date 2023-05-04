@@ -1,0 +1,23 @@
+.navigation__list {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  list-style: none;
+  border-top: 2px solid black;
+}
+.navigation__list-item:hover {
+  cursor: pointer;
+  border: 3px solid blue;
+}
+.navigation__list-item--current {
+  border: 3px solid green;
+}
+.navigation__list-item__image {
+  width: 35px;
+  height: 35px;
+  margin: 10px 5px;
+}
