@@ -1,0 +1,40 @@
+.question-card {
+  background-color: #f8ffe5;
+  width: 70%;
+  height: 30vh;
+  min-height: 200px;
+  min-width: 375px;
+  margin: 10vh auto;
+  border: 3px solid black;
+  border-radius: 5px;
+  position: relative;
+}
+.question-card__question {
+  text-align: center;
+  padding: 30px 10px 15px;
+}
+.question-card__button {
+  display: block;
+  margin: 12px auto 0;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.question-card__categories {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+}
+.question-card__categories-tag {
+  display: inline-block;
+  padding: 4px 8px;
+  background-color: rgb(200, 193, 193);
+  border-radius: 4px;
+}
+.question-card__bookmark-icon {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  width: 35px;
+  height: 35px;
+}
