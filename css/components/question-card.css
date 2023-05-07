@@ -31,10 +31,13 @@
   background-color: rgb(200, 193, 193);
   border-radius: 4px;
 }
-.question-card__bookmark-icon {
+.question-card__bookmark {
   position: absolute;
   top: 3px;
   right: 3px;
   width: 35px;
   height: 35px;
+}
+.question-card__bookmark--filled {
+  content: url("../../img/bookmark-filled.png");
 }
