@@ -40,8 +40,11 @@
         </div>
       </section>
       <section class="settings">
-        <h2 class="settings__heading">Settings</h2>
-        <h3>Dark mode</h3>
+        <h2 id="title" class="settings__heading">Settings</h2>
+        <form aria-labelledby="title" class="settings__form">
+          <input id="dark-mode" type="checkbox" />
+          <label for="dark-mode" class="">Dark mode</label>
+        </form>
       </section>
     </main>
 
@@ -60,7 +63,7 @@
             ><li class="navigation__list-item">
               <img
                 class="navigation__list-item__image"
-                src="../img/bookmark.png"
+                src="../img/bookmark-white.png"
                 alt="bookmark emoji"
               /></li
           ></a>
