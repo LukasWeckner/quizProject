@@ -20,6 +20,14 @@
   border-radius: 5px;
   cursor: pointer;
 }
+.question-card__answer {
+  text-align: center;
+  margin-top: 0.6rem;
+  display: none;
+}
+.--hidden {
+  display: block;
+}
 .question-card__categories {
   position: absolute;
   bottom: 8px;
