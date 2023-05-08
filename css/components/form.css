@@ -1,0 +1,13 @@
+.center-content {
+  width: 70%;
+  margin: 6vh auto;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.form__form-item {
+  width: 100%;
+}
