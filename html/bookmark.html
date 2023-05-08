@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/styles.css" />
+    <script src="../script.js" defer></script>
     <title>Document</title>
   </head>
   <body>
@@ -18,17 +19,22 @@
         </p>
         <button
           type="button"
+          data-js="show-answer"
           class="question-card__button"
           aria-label="Show answer"
         >
           Show Answer
         </button>
+        <p class="question-card__answer" data-js="answer">
+          "Flex direction" does the job.
+        </p>
         <div class="question-card__categories">
           <span class="question-card__categories-tag">#css</span>
           <span class="question-card__categories-tag">#flexbox</span>
         </div>
         <img
           class="question-card__bookmark"
+          data-js="bookmark-icon"
           src="../img/bookmark-white.png"
           alt="bookmark icon"
         />
