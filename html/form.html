@@ -13,7 +13,7 @@
       <h1>Frontend Dev Quiz</h1>
     </header>
     <main class="center-content">
-      <form class="form">
+      <form class="form" data-js="form">
         <label for="new-question">Your question:</label>
         <textarea
           name="new-question"
@@ -39,6 +39,10 @@
         />
         <button type="submit">Submit</button>
       </form>
+      <ul
+        class="question-card__container"
+        data-js="question-card-container"
+      ></ul>
     </main>
     <footer>
       <nav>
