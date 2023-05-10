@@ -13,31 +13,35 @@
       <h1>Frontend Dev Quiz</h1>
     </header>
     <main>
-      <section class="question-card">
-        <p class="question-card__question">
-          What property flips the axes in flexbox?
-        </p>
-        <button
-          type="button"
-          data-js="show-answer"
-          class="question-card__button"
-          aria-label="Show answer"
-        >
-          Show Answer
-        </button>
-        <p class="question-card__answer" data-js="answer">
-          "Flex direction" does the job.
-        </p>
-        <div class="question-card__categories">
-          <span class="question-card__categories-tag">#css</span>
-          <span class="question-card__categories-tag">#flexbox</span>
-        </div>
-        <img
-          data-js="bookmark-icon"
-          class="question-card__bookmark"
-          src="../img/bookmark-white.png"
-          alt="bookmark icon"
-        />
+      <section>
+        <ul>
+          <li class="question-card">
+            <p class="question-card__question">
+              What property flips the axes in flexbox?
+            </p>
+            <button
+              type="button"
+              data-js="show-answer"
+              class="question-card__button"
+              aria-label="Show answer"
+            >
+              Show Answer
+            </button>
+            <p class="question-card__answer" data-js="answer">
+              "Flex direction" does the job.
+            </p>
+            <div class="question-card__categories">
+              <span class="question-card__categories-tag">#css</span>
+              <span class="question-card__categories-tag">#flexbox</span>
+            </div>
+            <img
+              data-js="bookmark-icon"
+              class="question-card__bookmark"
+              src="../img/bookmark-white.png"
+              alt="bookmark icon"
+            />
+          </li>
+        </ul>
       </section>
     </main>
     <footer>
@@ -60,12 +64,13 @@
               /></li
           ></a>
           <a href="form.html"
-          ><li class="navigation__list-item">
-            <img
-              class="navigation__list-item__image"
-              src="../img/plus.png"
-              alt="plus-sign icon"
-            /></li>
+            ><li class="navigation__list-item">
+              <img
+                class="navigation__list-item__image"
+                src="../img/plus.png"
+                alt="plus-sign icon"
+              /></li
+          ></a>
           <a href="profile.html"
             ><li class="navigation__list-item">
               <img
