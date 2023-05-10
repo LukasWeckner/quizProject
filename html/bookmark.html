@@ -13,31 +13,35 @@
       <h1>Frontend Dev Quiz</h1>
     </header>
     <main>
-      <section class="question-card">
-        <p class="question-card__question">
-          What property flips the axes in flexbox?
-        </p>
-        <button
-          type="button"
-          data-js="show-answer"
-          class="question-card__button"
-          aria-label="Show answer"
-        >
-          Show Answer
-        </button>
-        <p class="question-card__answer" data-js="answer">
-          "Flex direction" does the job.
-        </p>
-        <div class="question-card__categories">
-          <span class="question-card__categories-tag">#css</span>
-          <span class="question-card__categories-tag">#flexbox</span>
-        </div>
-        <img
-          class="question-card__bookmark"
-          data-js="bookmark-icon"
-          src="../img/bookmark-white.png"
-          alt="bookmark icon"
-        />
+      <section>
+        <ul class="question-card__container">
+          <li class="question-card">
+            <p class="question-card__question">
+              What property flips the axes in flexbox?
+            </p>
+            <button
+              type="button"
+              data-js="show-answer"
+              class="question-card__button"
+              aria-label="Show answer"
+            >
+              Show Answer
+            </button>
+            <p class="question-card__answer" data-js="answer">
+              "Flex direction" does the job.
+            </p>
+            <div class="question-card__categories">
+              <span class="question-card__categories-tag">#css</span>
+              <span class="question-card__categories-tag">#flexbox</span>
+            </div>
+            <img
+              class="question-card__bookmark"
+              data-js="bookmark-icon"
+              src="../img/bookmark-white.png"
+              alt="bookmark icon"
+            />
+          </li>
+        </ul>
       </section>
     </main>
     <footer>

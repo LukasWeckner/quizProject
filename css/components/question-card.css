@@ -1,3 +1,6 @@
+.question-card__container {
+  list-style-type: none;
+}
 .question-card {
   background-color: #f8ffe5;
   width: 70%;
