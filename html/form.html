@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/styles.css" />
-    <script src="../script.js" defer></script>
+    <script src="../js/form.js" defer></script>
     <title>Document</title>
   </head>
   <body>
@@ -13,15 +13,31 @@
       <h1>Frontend Dev Quiz</h1>
     </header>
     <main class="center-content">
-        <form class="form">
-            <label for="new-question">Your question:</label>
-            <textarea name="new-question" id="new-question" rows="10" class="form__form-item" required></textarea>
-            <label for="new-answer">Your answer:</label>
-            <textarea name="new-answer" id="new-answer" rows="10" class="form__form-item" required></textarea>
-            <label for="new-tag">Tag:</label>
-            <input id="new-tag" type="text" name="new-tag" class="form__form-item">
-            <button type="submit">Submit</button>
-        </form>
+      <form class="form" data-js="form">
+        <label for="new-question">Your question:</label>
+        <textarea
+          name="newQuestion"
+          id="new-question"
+          rows="10"
+          class="form__form-item"
+          required
+        ></textarea>
+        <label for="new-answer">Your answer:</label>
+        <textarea
+          name="newAnswer"
+          id="new-answer"
+          rows="10"
+          class="form__form-item"
+          required
+        ></textarea>
+        <label for="new-tag">Tag:</label>
+        <input id="new-tag" type="text" name="newTag" class="form__form-item" />
+        <button type="submit">Submit</button>
+      </form>
+      <ul
+        class="question-card__container"
+        data-js="question-card-container"
+      ></ul>
     </main>
     <footer>
       <nav>
@@ -49,7 +65,8 @@
                 class="navigation__list-item__image"
                 src="../img/plus.png"
                 alt="plus-sign icon"
-              /></li>
+              /></li
+          ></a>
 
           <a href="profile.html"
             ><li class="navigation__list-item">
