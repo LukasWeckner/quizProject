@@ -2,6 +2,9 @@ const form = document.querySelector('[data-js="form"]');
 const newCardList = document.querySelector(
   '[data-js="question-card-container"]'
 );
+const questionInput = document.querySelector('[data-js="new-question"]');
+const answerInput = document.querySelector('[data-js="new-answer"]');
+const charactersNumber = document.querySelector('[data-js="characters-left"]');
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
@@ -10,7 +13,7 @@ form.addEventListener("submit", (event) => {
   //access form data
   const formData = new FormData(event.target);
   const data = Object.fromEntries(formData);
-  const formElements = event.target.elements;
+  const formElements = data.elements;
 
   // create elements for new question-card
   const questionCard = document.createElement("li");
@@ -46,4 +49,23 @@ form.addEventListener("submit", (event) => {
   questionCard.append(bookmark);
   questionCard.append(tagContainer);
   tagContainer.append(tag);
+});
+
+//access counter elements
+const countQuestion = document.querySelector(
+  '[data-js="characters-left-question"]'
+);
+const countAnswer = document.querySelector(
+  '[data-js="characters-left-answer"]'
+);
+
+//function and eventListener for characterCount
+function countCharacters(input) {
+  const maxLength = 150;
+  return maxLength - input.length;
+}
+
+form.addEventListener("input", () => {
+  countQuestion.textContent = countCharacters(questionInput.value);
+  countAnswer.textContent = countCharacters(answerInput.value);
 });

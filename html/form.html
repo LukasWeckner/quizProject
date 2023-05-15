@@ -17,19 +17,25 @@
         <label for="new-question">Your question:</label>
         <textarea
           name="newQuestion"
+          data-js="new-question"
           id="new-question"
           rows="10"
           class="form__form-item"
+          maxlength="150"
           required
         ></textarea>
+        <p><span data-js="characters-left-question"></span>characters left</p>
         <label for="new-answer">Your answer:</label>
         <textarea
           name="newAnswer"
+          data-js="new-answer"
           id="new-answer"
           rows="10"
           class="form__form-item"
+          maxlength="150"
           required
         ></textarea>
+        <p><span data-js="characters-left-answer"></span>characters left</p>
         <label for="new-tag">Tag:</label>
         <input id="new-tag" type="text" name="newTag" class="form__form-item" />
         <button type="submit">Submit</button>
